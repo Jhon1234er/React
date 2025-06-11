@@ -1,0 +1,79 @@
+.card {
+  max-width: 600px;       
+  margin: 20px auto;      
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  background-color: white;
+}
+
+.card-header {
+  font-size: calc(40px + 2vmin);
+  color: rgb(241, 241, 241);
+  background-color: #2a63bf; 
+  padding: 20px;
+  font-weight: bold;
+  border-radius: 8px 8px 0 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: center; 
+}
+
+.formulario {
+  background-color: #d0e1ff; 
+  width: 90%;
+  max-width: 500px;        
+  margin: 20px auto;        
+  padding: 20px 40px;
+  color: #1a2e6e;           
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 2px 8px rgba(42, 99, 191, 0.3);
+}
+
+.formulario h3 {
+  color: #1a2e6e;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 28px;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #2a63bf;
+}
+
+.formulario .info {
+  margin-bottom: 20px;
+}
+
+.info label {
+  display: block;
+  color: #2a63bf;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.info input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #2a63bf;
+  padding: 8px 6px;
+  margin-bottom: 15px;
+  background-color: #d0e1ff;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+  border-radius: 3px;
+}
+
+.info input:focus {
+  outline: none;
+  border-bottom-color: #154a9a;
+  background-color: #a8c0ff;
+}
+
+.btn-secondary {
+  margin-left: 20px;
+}
+
+.lista {
+  margin-top: 20px;
+  padding: 5px;
+  text-align: center;
+}
